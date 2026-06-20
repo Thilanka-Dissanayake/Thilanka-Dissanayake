@@ -1,5 +1,16 @@
-# 💫 About Me:
-### Hi there, I'm Thilanka! 👋<br><br>I'm an Electronics & Information Technology undergraduate at the University of Colombo, passionate about bridging the gap between hardware and software. Whether I'm designing complex IoT systems or building digital brands, I love bringing ideas to life. <br><br>#### 🛠️ Tech Stack & Hardware Focus<br>* **Languages:** Python, C++, Java<br>* **Microcontrollers:** ESP32, NodeMCU, ATmega328p, Raspberry Pi Pico, Seeed Studio XIAO<br>* **Technologies & Platforms:** IoT, Edge Impulse, Firebase, HiveMQ<br><br>#### 🚀 What I'm Currently Focused On<br>* Developing advanced IoT-based environmental monitoring systems (tracking pH, TDS, and turbidity).<br>* Exploring Edge ML applications, like voice-controlled hardware integrations.<br>* Growing my entrepreneurial ventures in Creative Peepz.<br><br>#### 📫 Let's Connect<br>* **LinkedIn:** https://www.linkedin.com/in/thilanka-dissanayake-116b1b38a<br>* **Email:** thilankadsss@gmail.com
+### Hi there, I'm Thilanka! 👋
+
+I'm an Electronics & Information Technology undergraduate at the University of Colombo, passionate about bridging the gap between hardware and software. Whether I'm designing complex IoT systems or building digital brands, I love bringing ideas to life. 
+
+#### 🛠️ Tech Stack & Hardware Focus
+* **Languages:** Python, C++, Java
+* **Microcontrollers:** ESP32, NodeMCU, ATmega328p, Raspberry Pi Pico, Seeed Studio XIAO
+* **Technologies & Platforms:** IoT, Edge Machine Learning, Firebase, HiveMQ
+
+#### 🚀 What I'm Currently Focused On
+* Developing advanced IoT-based environmental monitoring systems (tracking pH, TDS, and turbidity).
+* Exploring Edge ML applications, like voice-controlled hardware integrations.
+* Growing my entrepreneurial ventures, including Vibezz Cafe and Creative Peepz.
 
 
 ## 🌐 Socials:
