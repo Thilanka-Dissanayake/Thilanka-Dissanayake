@@ -1,13 +1,13 @@
-### Hi there, I'm Thilanka! 👋
+## Hi there, I'm Thilanka! 👋
 
 I'm an Electronics & Information Technology undergraduate at the University of Colombo, passionate about bridging the gap between hardware and software. Whether I'm designing complex IoT systems or building digital brands, I love bringing ideas to life. 
 
-#### 🛠️ Tech Stack & Hardware Focus
+## 🛠️ Tech Stack & Hardware Focus
 * **Languages:** Python, C++, Java
 * **Microcontrollers:** ESP32, NodeMCU, ATmega328p, Raspberry Pi Pico, Seeed Studio XIAO
 * **Technologies & Platforms:** IoT, Edge Machine Learning, Firebase, HiveMQ
 
-#### 🚀 What I'm Currently Focused On
+## 🚀 What I'm Currently Focused On
 * Developing advanced IoT-based environmental monitoring systems (tracking pH, TDS, and turbidity).
 * Exploring Edge ML applications, like voice-controlled hardware integrations.
 * Growing my entrepreneurial ventures, including Vibezz Cafe and Creative Peepz.
