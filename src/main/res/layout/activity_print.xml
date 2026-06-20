@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/billContainer"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <ImageView
+                android:id="@+id/billLogo"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/vibez_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VIBEZ Mini Cafe"
+                android:textColor="#000000"
+                android:textSize="60sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Moragollewa, Dambulla\n+94 75 323 7869"
+                android:textColor="#000000"
+                android:textSize="34sp" />
+
+            <TextView
+                android:id="@+id/tvBillDateTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DATE: --"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginVertical="15dp"
+                android:background="#000000" />
+
+            <TableLayout
+                android:id="@+id/billTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="0">
+                <TableRow android:paddingBottom="12dp">
+                    <TextView android:text="Item" android:textSize="42sp" android:textStyle="bold" android:textColor="#000000" />
+                    <TextView android:text="Qty" android:textSize="42sp" android:textStyle="bold" android:gravity="center" android:textColor="#000000" />
+                    <TextView android:text="Price" android:textSize="42sp" android:textStyle="bold" android:gravity="end" android:textColor="#000000" />
+                </TableRow>
+            </TableLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginVertical="15dp"
+                android:background="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingVertical="15dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL:"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="50sp" />
+                <TextView
+                    android:id="@+id/tvBillTotal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:text="0.00"
+                    android:textColor="#000000"
+                    android:textSize="54sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="50dp"
+                android:text="Thank you! Come Again!"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGeneratePdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share wider PDF to Fun Print"
+            android:layout_margin="50dp"
+            android:textSize="26sp"
+            android:padding="25dp"
+            android:backgroundTint="#4CAF50"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spent Analysis (Stock)"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TableLayout
+        android:id="@+id/spentTable"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:stretchColumns="*">
+        <TableRow android:background="#E0E0E0">
+            <TextView android:text="Item" android:textStyle="bold" android:padding="8dp"/>
+            <TextView android:text="Cost" android:textStyle="bold" android:padding="8dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btnOwnerLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="#F44336"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
